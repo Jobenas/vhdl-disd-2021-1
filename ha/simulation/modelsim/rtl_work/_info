@@ -1,0 +1,88 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/joben/personal_dev/disd/2021-1/codigo/ha/simulation/modelsim
+Eha
+Z1 w1618863922
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8C:/Users/joben/personal_dev/disd/2021-1/codigo/ha/ha.vhd
+Z5 FC:/Users/joben/personal_dev/disd/2021-1/codigo/ha/ha.vhd
+l0
+L4
+V@f7`hAc90fmiA1k`ZdSdi1
+!s100 6jLCJEHm>E8GX1oBFO[?N3
+Z6 OV;C;10.4b;61
+31
+Z7 !s110 1618864510
+!i10b 1
+Z8 !s108 1618864509.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/joben/personal_dev/disd/2021-1/codigo/ha/ha.vhd|
+Z10 !s107 C:/Users/joben/personal_dev/disd/2021-1/codigo/ha/ha.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1
+Alogical
+R2
+R3
+DEx4 work 2 ha 0 22 @f7`hAc90fmiA1k`ZdSdi1
+l14
+L12
+Vl10JgTRZlS5j1UDIP^>:A3
+!s100 :90a8F5=:53Q6l@Mnl_kg0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eha_vhd_tst
+Z13 w1618864453
+R2
+R3
+R0
+Z14 8C:/Users/joben/personal_dev/disd/2021-1/codigo/ha/simulation/modelsim/ha.vht
+Z15 FC:/Users/joben/personal_dev/disd/2021-1/codigo/ha/simulation/modelsim/ha.vht
+l0
+L31
+VjDQRO_WE06:LX2Rj2M93H0
+!s100 QYW[`i;H:5]ec0abNX8A50
+R6
+31
+R7
+!i10b 1
+Z16 !s108 1618864510.000000
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/Users/joben/personal_dev/disd/2021-1/codigo/ha/simulation/modelsim/ha.vht|
+Z18 !s107 C:/Users/joben/personal_dev/disd/2021-1/codigo/ha/simulation/modelsim/ha.vht|
+!i113 1
+R11
+R12
+Aha_arch
+R2
+R3
+DEx4 work 10 ha_vhd_tst 0 22 jDQRO_WE06:LX2Rj2M93H0
+l48
+L33
+V2fXkGfH@=me2C_0F=?bco0
+!s100 MdiM_Kd:O[@eb;4RK6IgL2
+R6
+31
+R7
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R11
+R12

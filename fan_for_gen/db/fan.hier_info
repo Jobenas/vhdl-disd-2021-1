@@ -1,0 +1,61 @@
+|fan
+a[0] => fa:for_gen:0:fa_n.a
+a[1] => fa:for_gen:1:fa_n.a
+a[2] => fa:for_gen:2:fa_n.a
+a[3] => fa:for_gen:3:fa_n.a
+b[0] => fa:for_gen:0:fa_n.b
+b[1] => fa:for_gen:1:fa_n.b
+b[2] => fa:for_gen:2:fa_n.b
+b[3] => fa:for_gen:3:fa_n.b
+ci => fa:for_gen:0:fa_n.ci
+co <= fa:for_gen:3:fa_n.co
+s[0] <= fa:for_gen:0:fa_n.s
+s[1] <= fa:for_gen:1:fa_n.s
+s[2] <= fa:for_gen:2:fa_n.s
+s[3] <= fa:for_gen:3:fa_n.s
+
+
+|fan|fa:\for_gen:0:fa_n
+a => Mux0.IN9
+a => Mux1.IN9
+b => Mux0.IN10
+b => Mux1.IN10
+ci => Mux0.IN8
+ci => Mux1.IN8
+co <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+s <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|fan|fa:\for_gen:1:fa_n
+a => Mux0.IN9
+a => Mux1.IN9
+b => Mux0.IN10
+b => Mux1.IN10
+ci => Mux0.IN8
+ci => Mux1.IN8
+co <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+s <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|fan|fa:\for_gen:2:fa_n
+a => Mux0.IN9
+a => Mux1.IN9
+b => Mux0.IN10
+b => Mux1.IN10
+ci => Mux0.IN8
+ci => Mux1.IN8
+co <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+s <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|fan|fa:\for_gen:3:fa_n
+a => Mux0.IN9
+a => Mux1.IN9
+b => Mux0.IN10
+b => Mux1.IN10
+ci => Mux0.IN8
+ci => Mux1.IN8
+co <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+s <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+
+

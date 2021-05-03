@@ -1,0 +1,9 @@
+|primo
+num[0] => Mux0.IN36
+num[1] => Mux0.IN35
+num[2] => Mux0.IN34
+num[3] => Mux0.IN33
+num[4] => Mux0.IN32
+p <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,19 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+use work.fa4_comps.all;
+
+entity fa4 is
+	port(
+		a, b: in std_logic_vector(3 downto 0);
+		cin: in std_logic;
+		cout: out sdt_logic;
+		s: out std_logic_vector(3 downto 0)
+	);
+end fa4;
+
+architecture jerarquico of fa4 is
+
+begin
+
+end jerarquico;

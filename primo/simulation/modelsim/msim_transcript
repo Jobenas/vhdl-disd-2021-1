@@ -1,0 +1,57 @@
+# do primo_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim ALTERA vmap 10.4b Lib Mapping Utility 2015.05 May 27 2015
+# vmap -modelsim_quiet work rtl_work 
+# Copying C:/altera/15.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/altera/15.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/Users/joben/personal_dev/disd/2021-1/codigo/primo/primo.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 16:35:26 on May 03,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/joben/personal_dev/disd/2021-1/codigo/primo/primo.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity primo
+# -- Compiling architecture func of primo
+# End time: 16:35:26 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {C:/Users/joben/personal_dev/disd/2021-1/codigo/primo/simulation/modelsim/primo.vht}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 16:35:26 on May 03,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/joben/personal_dev/disd/2021-1/codigo/primo/simulation/modelsim/primo.vht 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity primo_vhd_tst
+# -- Compiling architecture primo_arch of primo_vhd_tst
+# ** Warning: C:/Users/joben/personal_dev/disd/2021-1/codigo/primo/simulation/modelsim/primo.vht(59): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 16:35:26 on May 03,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs="+acc"  primo_vhd_tst
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs=""+acc"" primo_vhd_tst 
+# Start time: 16:35:26 on May 03,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.primo_vhd_tst(primo_arch)
+# Loading work.primo(func)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# End time: 16:53:37 on May 03,2021, Elapsed time: 0:18:11
+# Errors: 0, Warnings: 0

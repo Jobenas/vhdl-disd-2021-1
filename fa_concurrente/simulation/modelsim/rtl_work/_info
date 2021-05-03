@@ -1,0 +1,88 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/joben/personal_dev/disd/2021-1/codigo/fa_concurrente/simulation/modelsim
+Efa
+Z1 w1618865972
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8C:/Users/joben/personal_dev/disd/2021-1/codigo/fa_concurrente/fa.vhd
+Z5 FC:/Users/joben/personal_dev/disd/2021-1/codigo/fa_concurrente/fa.vhd
+l0
+L4
+VVVTOi6@0Bh_FICEc8AjQZ0
+!s100 0S4bF[b35e@nb8NniN[c=0
+Z6 OV;C;10.4b;61
+31
+Z7 !s110 1618866113
+!i10b 1
+Z8 !s108 1618866113.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/joben/personal_dev/disd/2021-1/codigo/fa_concurrente/fa.vhd|
+Z10 !s107 C:/Users/joben/personal_dev/disd/2021-1/codigo/fa_concurrente/fa.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1
+Aconc
+R2
+R3
+DEx4 work 2 fa 0 22 VVTOi6@0Bh_FICEc8AjQZ0
+l14
+L11
+V5RQ=Z_^J4GlC;<fD:j7G73
+!s100 8O[bH==SK:LjgiiRbOaaa1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Efa_vhd_tst
+Z13 w1618866081
+R2
+R3
+R0
+Z14 8C:/Users/joben/personal_dev/disd/2021-1/codigo/fa_concurrente/simulation/modelsim/fa.vht
+Z15 FC:/Users/joben/personal_dev/disd/2021-1/codigo/fa_concurrente/simulation/modelsim/fa.vht
+l0
+L31
+VN?f?]XjfKYJnoZ8JlCgM73
+!s100 0XGR1O4nJFHIJI=izeO>S2
+R6
+31
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-93|-work|work|C:/Users/joben/personal_dev/disd/2021-1/codigo/fa_concurrente/simulation/modelsim/fa.vht|
+Z17 !s107 C:/Users/joben/personal_dev/disd/2021-1/codigo/fa_concurrente/simulation/modelsim/fa.vht|
+!i113 1
+R11
+R12
+Afa_arch
+R2
+R3
+DEx4 work 10 fa_vhd_tst 0 22 N?f?]XjfKYJnoZ8JlCgM73
+l50
+L33
+VkUMmlckd8ZA7E1^2O7H3j0
+!s100 2XEYm0ZA73@DfCeOXgAIO2
+R6
+31
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12

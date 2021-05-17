@@ -1,0 +1,24 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+use work.rest_reg_comps.all;
+
+entity rest_reg is
+	port(
+		clk, rst, w: in std_logic;
+		a, b: in std_logic_vector(7 downto 0);
+		r: out std_logic_vector(7 downto 0);
+	);
+end rest_reg;
+
+architecture modular of rest_reg is
+signal not_b, reg_out, mux_out, sum_out: std_logic_vector(7 downto 0);
+begin
+
+	-- negacion de b
+	not_b <= not(b);
+
+	-- sumador configurado como restador
+	restador: fan generic map(n=>8) port map();
+
+end modular;

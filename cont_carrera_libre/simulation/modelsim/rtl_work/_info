@@ -1,0 +1,90 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/joben/personal_dev/disd/2021-1/codigo/cont_carrera_libre/simulation/modelsim
+Econt
+Z1 w1621283302
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8C:/Users/joben/personal_dev/disd/2021-1/codigo/cont_carrera_libre/cont.vhd
+Z6 FC:/Users/joben/personal_dev/disd/2021-1/codigo/cont_carrera_libre/cont.vhd
+l0
+L5
+V]E`=RAU?`3AC7O@=;62fb3
+!s100 G;4<kd2H>0Rz>AOcQm:B@0
+Z7 OV;C;10.4b;61
+31
+Z8 !s110 1621283680
+!i10b 1
+Z9 !s108 1621283680.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/joben/personal_dev/disd/2021-1/codigo/cont_carrera_libre/cont.vhd|
+Z11 !s107 C:/Users/joben/personal_dev/disd/2021-1/codigo/cont_carrera_libre/cont.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1
+Aejemplo
+R2
+R3
+R4
+DEx4 work 4 cont 0 22 ]E`=RAU?`3AC7O@=;62fb3
+l16
+L12
+V5daQN=HHLhL9HP`DWD8oT2
+!s100 =21eFQRF_JVG:<?ZGZQ9Y2
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Econt_vhd_tst
+Z14 w1621283656
+R3
+R4
+R0
+Z15 8C:/Users/joben/personal_dev/disd/2021-1/codigo/cont_carrera_libre/simulation/modelsim/cont.vht
+Z16 FC:/Users/joben/personal_dev/disd/2021-1/codigo/cont_carrera_libre/simulation/modelsim/cont.vht
+l0
+L31
+V_:4]A4^_5oCkk[;jc8CZG1
+!s100 CJg@Chd58WCS92:I[E96_0
+R7
+31
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/Users/joben/personal_dev/disd/2021-1/codigo/cont_carrera_libre/simulation/modelsim/cont.vht|
+Z18 !s107 C:/Users/joben/personal_dev/disd/2021-1/codigo/cont_carrera_libre/simulation/modelsim/cont.vht|
+!i113 1
+R12
+R13
+Acont_arch
+R3
+R4
+DEx4 work 12 cont_vhd_tst 0 22 _:4]A4^_5oCkk[;jc8CZG1
+l46
+L33
+VSn87`lNeS88@h37EQ[@271
+!s100 HFc`WEZ60BUWk4NoI`6Vj1
+R7
+31
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13

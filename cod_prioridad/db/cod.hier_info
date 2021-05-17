@@ -1,0 +1,10 @@
+|cod
+e[0] => a[0].DATAIN
+e[1] => a[1].DATAIN
+e[2] => ~NO_FANOUT~
+e[3] => ~NO_FANOUT~
+z <= <GND>
+a[0] <= e[0].DB_MAX_OUTPUT_PORT_TYPE
+a[1] <= e[1].DB_MAX_OUTPUT_PORT_TYPE
+
+

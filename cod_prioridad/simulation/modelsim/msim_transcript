@@ -1,0 +1,65 @@
+# do cod_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim ALTERA vmap 10.4b Lib Mapping Utility 2015.05 May 27 2015
+# vmap -modelsim_quiet work rtl_work 
+# Copying C:/altera/15.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/altera/15.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/Users/joben/personal_dev/disd/2021-1/codigo/cod_prioridad/cod.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 22:33:47 on May 15,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/joben/personal_dev/disd/2021-1/codigo/cod_prioridad/cod.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity cod
+# -- Compiling architecture ejemplo of cod
+# End time: 22:33:47 on May 15,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {C:/Users/joben/personal_dev/disd/2021-1/codigo/cod_prioridad/simulation/modelsim/cod.vht}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 22:33:47 on May 15,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/joben/personal_dev/disd/2021-1/codigo/cod_prioridad/simulation/modelsim/cod.vht 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity cod_vhd_tst
+# -- Compiling architecture cod_arch of cod_vhd_tst
+# ** Warning: C:/Users/joben/personal_dev/disd/2021-1/codigo/cod_prioridad/simulation/modelsim/cod.vht(67): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/joben/personal_dev/disd/2021-1/codigo/cod_prioridad/simulation/modelsim/cod.vht(69): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/joben/personal_dev/disd/2021-1/codigo/cod_prioridad/simulation/modelsim/cod.vht(71): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/joben/personal_dev/disd/2021-1/codigo/cod_prioridad/simulation/modelsim/cod.vht(73): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/joben/personal_dev/disd/2021-1/codigo/cod_prioridad/simulation/modelsim/cod.vht(75): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/joben/personal_dev/disd/2021-1/codigo/cod_prioridad/simulation/modelsim/cod.vht(77): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/joben/personal_dev/disd/2021-1/codigo/cod_prioridad/simulation/modelsim/cod.vht(79): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/joben/personal_dev/disd/2021-1/codigo/cod_prioridad/simulation/modelsim/cod.vht(81): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/joben/personal_dev/disd/2021-1/codigo/cod_prioridad/simulation/modelsim/cod.vht(83): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/joben/personal_dev/disd/2021-1/codigo/cod_prioridad/simulation/modelsim/cod.vht(85): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/joben/personal_dev/disd/2021-1/codigo/cod_prioridad/simulation/modelsim/cod.vht(87): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 22:33:47 on May 15,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 11
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs="+acc"  cod_vhd_tst
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs=""+acc"" cod_vhd_tst 
+# Start time: 22:33:47 on May 15,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.cod_vhd_tst(cod_arch)
+# Loading work.cod(ejemplo)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# End time: 23:04:22 on May 15,2021, Elapsed time: 0:30:35
+# Errors: 0, Warnings: 0

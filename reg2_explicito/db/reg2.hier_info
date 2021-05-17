@@ -1,0 +1,11 @@
+|reg2
+rst => q[0]~reg0.ACLR
+rst => q[1]~reg0.ACLR
+clk => q[0]~reg0.CLK
+clk => q[1]~reg0.CLK
+d[0] => q[0]~reg0.DATAIN
+d[1] => q[1]~reg0.DATAIN
+q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

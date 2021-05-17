@@ -1,0 +1,10 @@
+Info: Using NativeLink to launch synthesis Tool
+Synthesis tool <None> is not supported by NativeLink
+Error: NativeLink flow failed to complete synthesis
+
+================The following information is provided to Debug NativeLink Script=================
+Nativelink TCL script failed with errorCode:  POSIX ENOENT {no such file or directory}
+Nativelink TCL script failed with errorInfo:  couldn't open "C:/altera_lite/15.1/quartus/bin64/tclIndex": no such file or directory
+    while executing
+"open [file join $dir tclIndex]"
+PATH Environment Variable is set to :  c:\altera_lite\15.1\quartus\bin64\;c:\altera_lite\15.1\quartus\bin64\;C:\Users\joben\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\joben\AppData\Local\Programs\Python\Python39\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\cmd;C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\joben\AppData\Local\Microsoft\WindowsApps;C:\Users\joben\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\joben\src_flutter\flutter\bin;C:\Program Files (x86)\Java\jre1.8.0_281\bin;C:\Users\joben\arduino-cli;C:\Users\joben\AppData\Roaming\npm;C:\altera\15.1\modelsim_ase\win32aloem;C:\altera_lite\15.1\modelsim_ase\win32aloem;C:\Users\joben\.platformio\penv\Scripts;C:\ProgramData\joben\GitHubDesktop\bin;C:\Users\joben\AppData\Local\GitHubDesktop\bin

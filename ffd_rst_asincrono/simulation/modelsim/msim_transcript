@@ -1,0 +1,61 @@
+# do ffd_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim ALTERA vmap 10.4b Lib Mapping Utility 2015.05 May 27 2015
+# vmap -modelsim_quiet work rtl_work 
+# Copying C:/altera/15.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/altera/15.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/Users/joben/personal_dev/disd/2021-1/codigo/ffd_rst_asincrono/ffd.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 15:44:05 on May 10,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/joben/personal_dev/disd/2021-1/codigo/ffd_rst_asincrono/ffd.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ffd
+# -- Compiling architecture ejemplo of ffd
+# End time: 15:44:05 on May 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {C:/Users/joben/personal_dev/disd/2021-1/codigo/ffd_rst_asincrono/simulation/modelsim/ffd.vht}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 15:44:05 on May 10,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/joben/personal_dev/disd/2021-1/codigo/ffd_rst_asincrono/simulation/modelsim/ffd.vht 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ffd_vhd_tst
+# -- Compiling architecture ffd_arch of ffd_vhd_tst
+# ** Warning: C:/Users/joben/personal_dev/disd/2021-1/codigo/ffd_rst_asincrono/simulation/modelsim/ffd.vht(63): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/joben/personal_dev/disd/2021-1/codigo/ffd_rst_asincrono/simulation/modelsim/ffd.vht(66): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/joben/personal_dev/disd/2021-1/codigo/ffd_rst_asincrono/simulation/modelsim/ffd.vht(68): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/joben/personal_dev/disd/2021-1/codigo/ffd_rst_asincrono/simulation/modelsim/ffd.vht(70): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/joben/personal_dev/disd/2021-1/codigo/ffd_rst_asincrono/simulation/modelsim/ffd.vht(72): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/joben/personal_dev/disd/2021-1/codigo/ffd_rst_asincrono/simulation/modelsim/ffd.vht(81): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/joben/personal_dev/disd/2021-1/codigo/ffd_rst_asincrono/simulation/modelsim/ffd.vht(83): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 15:44:06 on May 10,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 7
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs="+acc"  ffd_vhd_tst
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs=""+acc"" ffd_vhd_tst 
+# Start time: 15:44:06 on May 10,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.ffd_vhd_tst(ffd_arch)
+# Loading work.ffd(ejemplo)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 60 ns
+# End time: 15:44:53 on May 10,2021, Elapsed time: 0:00:47
+# Errors: 0, Warnings: 0

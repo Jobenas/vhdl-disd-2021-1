@@ -1,0 +1,90 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/joben/personal_dev/disd/2021-1/codigo/div-freq-10/simulation/modelsim
+Ediv_freq
+Z1 w1621284338
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8C:/Users/joben/personal_dev/disd/2021-1/codigo/div-freq-10/div_freq.vhd
+Z6 FC:/Users/joben/personal_dev/disd/2021-1/codigo/div-freq-10/div_freq.vhd
+l0
+L5
+VD@48W0E[zj2Hl:HP5<7G`2
+!s100 @n[W_QB:i:ooC7F>64;z[1
+Z7 OV;C;10.4b;61
+31
+Z8 !s110 1621284494
+!i10b 1
+Z9 !s108 1621284494.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/joben/personal_dev/disd/2021-1/codigo/div-freq-10/div_freq.vhd|
+Z11 !s107 C:/Users/joben/personal_dev/disd/2021-1/codigo/div-freq-10/div_freq.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1
+Aejemplo
+R2
+R3
+R4
+DEx4 work 8 div_freq 0 22 D@48W0E[zj2Hl:HP5<7G`2
+l17
+L12
+VB_jcUmmOEmn5G8Ml9z;601
+!s100 <[JY298aoQGZOSELGEf<10
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ediv_freq_vhd_tst
+Z14 w1621284450
+R3
+R4
+R0
+Z15 8C:/Users/joben/personal_dev/disd/2021-1/codigo/div-freq-10/simulation/modelsim/div_freq.vht
+Z16 FC:/Users/joben/personal_dev/disd/2021-1/codigo/div-freq-10/simulation/modelsim/div_freq.vht
+l0
+L31
+VfYhH1cb@IGg5F;08NiACO3
+!s100 7=hD5G@ElkDAD37bBVgJE2
+R7
+31
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/Users/joben/personal_dev/disd/2021-1/codigo/div-freq-10/simulation/modelsim/div_freq.vht|
+Z18 !s107 C:/Users/joben/personal_dev/disd/2021-1/codigo/div-freq-10/simulation/modelsim/div_freq.vht|
+!i113 1
+R12
+R13
+Adiv_freq_arch
+R3
+R4
+DEx4 work 16 div_freq_vhd_tst 0 22 fYhH1cb@IGg5F;08NiACO3
+l46
+L33
+V4iC?l]_nLS8;08RL0zXGn2
+!s100 c;dcDzzIl1;RzX4zc=PO<0
+R7
+31
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13

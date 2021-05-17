@@ -1,0 +1,12 @@
+|div_freq
+clk => cuenta_actual[0].CLK
+clk => cuenta_actual[1].CLK
+clk => cuenta_actual[2].CLK
+clk => cuenta_actual[3].CLK
+rst => cuenta_actual[0].ACLR
+rst => cuenta_actual[1].ACLR
+rst => cuenta_actual[2].ACLR
+rst => cuenta_actual[3].ACLR
+div_out <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+

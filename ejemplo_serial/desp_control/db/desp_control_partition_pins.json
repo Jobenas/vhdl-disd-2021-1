@@ -1,0 +1,37 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "cont_en",
+					"strict" : false
+				},
+				{
+					"name" : "rst_cont",
+					"strict" : false
+				},
+				{
+					"name" : "ack",
+					"strict" : false
+				},
+				{
+					"name" : "req",
+					"strict" : false
+				},
+				{
+					"name" : "comp_out",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "rst",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

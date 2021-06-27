@@ -1,0 +1,20 @@
+|cont
+clk => cuenta_actual[0].CLK
+clk => cuenta_actual[1].CLK
+clk => cuenta_actual[2].CLK
+clk => cuenta_actual[3].CLK
+rst => cuenta_actual[0].ACLR
+rst => cuenta_actual[1].ACLR
+rst => cuenta_actual[2].ACLR
+rst => cuenta_actual[3].ACLR
+en => sum_out[3].OUTPUTSELECT
+en => sum_out[2].OUTPUTSELECT
+en => sum_out[1].OUTPUTSELECT
+en => sum_out[0].OUTPUTSELECT
+cuenta[0] <= cuenta_actual[0].DB_MAX_OUTPUT_PORT_TYPE
+cuenta[1] <= cuenta_actual[1].DB_MAX_OUTPUT_PORT_TYPE
+cuenta[2] <= cuenta_actual[2].DB_MAX_OUTPUT_PORT_TYPE
+cuenta[3] <= cuenta_actual[3].DB_MAX_OUTPUT_PORT_TYPE
+div <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+

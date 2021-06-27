@@ -1,0 +1,7 @@
+
+State Machine - |serial|desp_control:fsm|estado_pte
+Name estado_pte.envia_ack estado_pte.transmite estado_pte.espera_req estado_pte.inicio 
+estado_pte.inicio 0 0 0 0 
+estado_pte.espera_req 0 0 1 1 
+estado_pte.transmite 0 1 0 1 
+estado_pte.envia_ack 1 0 0 1 

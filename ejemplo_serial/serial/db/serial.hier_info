@@ -1,0 +1,138 @@
+|serial
+clk => desp:circuito.clk
+clk => desp_control:fsm.clk
+rst => desp:circuito.rst_reg
+rst => desp_control:fsm.rst
+req => desp_control:fsm.req
+reg_en => desp:circuito.en
+dato[0] => desp:circuito.dato[0]
+dato[1] => desp:circuito.dato[1]
+dato[2] => desp:circuito.dato[2]
+dato[3] => desp:circuito.dato[3]
+dato[4] => desp:circuito.dato[4]
+dato[5] => desp:circuito.dato[5]
+dato[6] => desp:circuito.dato[6]
+dato[7] => desp:circuito.dato[7]
+serie <= desp:circuito.salida
+ack <= desp_control:fsm.ack
+
+
+|serial|desp:circuito
+clk => cont_out[0].CLK
+clk => cont_out[1].CLK
+clk => cont_out[2].CLK
+clk => cont_out[3].CLK
+clk => reg_out[0].CLK
+clk => reg_out[1].CLK
+clk => reg_out[2].CLK
+clk => reg_out[3].CLK
+clk => reg_out[4].CLK
+clk => reg_out[5].CLK
+clk => reg_out[6].CLK
+clk => reg_out[7].CLK
+en => reg_out[7].ENA
+en => reg_out[6].ENA
+en => reg_out[5].ENA
+en => reg_out[4].ENA
+en => reg_out[3].ENA
+en => reg_out[2].ENA
+en => reg_out[1].ENA
+en => reg_out[0].ENA
+cont_en => fan:sum.ci
+rst_reg => reg_out[0].ACLR
+rst_reg => reg_out[1].ACLR
+rst_reg => reg_out[2].ACLR
+rst_reg => reg_out[3].ACLR
+rst_reg => reg_out[4].ACLR
+rst_reg => reg_out[5].ACLR
+rst_reg => reg_out[6].ACLR
+rst_reg => reg_out[7].ACLR
+rst_cont => cont_out[0].ACLR
+rst_cont => cont_out[1].ACLR
+rst_cont => cont_out[2].ACLR
+rst_cont => cont_out[3].ACLR
+dato[0] => reg_out[0].DATAIN
+dato[1] => reg_out[1].DATAIN
+dato[2] => reg_out[2].DATAIN
+dato[3] => reg_out[3].DATAIN
+dato[4] => reg_out[4].DATAIN
+dato[5] => reg_out[5].DATAIN
+dato[6] => reg_out[6].DATAIN
+dato[7] => reg_out[7].DATAIN
+salida <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+comp_out <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|serial|desp:circuito|fan:sum
+a[0] => fa:for_gen:0:fa_n.a
+a[1] => fa:for_gen:1:fa_n.a
+a[2] => fa:for_gen:2:fa_n.a
+a[3] => fa:for_gen:3:fa_n.a
+b[0] => fa:for_gen:0:fa_n.b
+b[1] => fa:for_gen:1:fa_n.b
+b[2] => fa:for_gen:2:fa_n.b
+b[3] => fa:for_gen:3:fa_n.b
+ci => fa:for_gen:0:fa_n.ci
+co <= fa:for_gen:3:fa_n.co
+s[0] <= fa:for_gen:0:fa_n.s
+s[1] <= fa:for_gen:1:fa_n.s
+s[2] <= fa:for_gen:2:fa_n.s
+s[3] <= fa:for_gen:3:fa_n.s
+
+
+|serial|desp:circuito|fan:sum|fa:\for_gen:0:fa_n
+a => Mux0.IN9
+a => Mux1.IN9
+b => Mux0.IN10
+b => Mux1.IN10
+ci => Mux0.IN8
+ci => Mux1.IN8
+co <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+s <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|serial|desp:circuito|fan:sum|fa:\for_gen:1:fa_n
+a => Mux0.IN9
+a => Mux1.IN9
+b => Mux0.IN10
+b => Mux1.IN10
+ci => Mux0.IN8
+ci => Mux1.IN8
+co <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+s <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|serial|desp:circuito|fan:sum|fa:\for_gen:2:fa_n
+a => Mux0.IN9
+a => Mux1.IN9
+b => Mux0.IN10
+b => Mux1.IN10
+ci => Mux0.IN8
+ci => Mux1.IN8
+co <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+s <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|serial|desp:circuito|fan:sum|fa:\for_gen:3:fa_n
+a => Mux0.IN9
+a => Mux1.IN9
+b => Mux0.IN10
+b => Mux1.IN10
+ci => Mux0.IN8
+ci => Mux1.IN8
+co <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+s <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|serial|desp_control:fsm
+clk => estado_pte~1.DATAIN
+rst => estado_pte~3.DATAIN
+req => Selector1.IN3
+req => Selector0.IN2
+comp_out => estado_sgte.envia_ack.DATAB
+comp_out => Selector1.IN1
+cont_en <= cont_en.DB_MAX_OUTPUT_PORT_TYPE
+rst_cont <= rst_cont.DB_MAX_OUTPUT_PORT_TYPE
+ack <= ack.DB_MAX_OUTPUT_PORT_TYPE
+
+

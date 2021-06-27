@@ -1,0 +1,17 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity detector is
+	port(
+		clk, rst, x: in std_logic;
+		z: out std_logic
+	);
+end detector;
+
+architecture fsm of detector is
+
+type estados is(s0, s1, s2, s3);
+
+begin
+
+end fsm;

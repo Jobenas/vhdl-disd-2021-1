@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Mon May 31 16:31:44 2021
+Quartus Prime Version : 15.1.0 Build 185 10/21/2015 SJ Lite Edition
+Revision Name : vending
+Top-level Entity Name : vending
+Family : MAX 10
+Total logic elements : 20
+    Total combinational functions : 20
+    Dedicated logic registers : 10
+Total registers : 10
+Total pins : 8
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

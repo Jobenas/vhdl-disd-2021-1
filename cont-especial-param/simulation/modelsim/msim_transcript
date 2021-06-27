@@ -1,0 +1,64 @@
+# do cont_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim ALTERA vmap 10.4b Lib Mapping Utility 2015.05 May 27 2015
+# vmap -modelsim_quiet work rtl_work 
+# Copying C:/altera/15.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/altera/15.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/Users/joben/personal_dev/disd/2021-1/codigo/cont-especial-param/cont.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 16:46:16 on May 17,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/joben/personal_dev/disd/2021-1/codigo/cont-especial-param/cont.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity cont
+# -- Compiling architecture ejemplo of cont
+# End time: 16:46:16 on May 17,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {C:/Users/joben/personal_dev/disd/2021-1/codigo/cont-especial-param/simulation/modelsim/cont.vht}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 16:46:16 on May 17,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/joben/personal_dev/disd/2021-1/codigo/cont-especial-param/simulation/modelsim/cont.vht 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity cont_vhd_tst
+# -- Compiling architecture cont_arch of cont_vhd_tst
+# ** Warning: C:/Users/joben/personal_dev/disd/2021-1/codigo/cont-especial-param/simulation/modelsim/cont.vht(65): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/joben/personal_dev/disd/2021-1/codigo/cont-especial-param/simulation/modelsim/cont.vht(68): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/joben/personal_dev/disd/2021-1/codigo/cont-especial-param/simulation/modelsim/cont.vht(70): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/joben/personal_dev/disd/2021-1/codigo/cont-especial-param/simulation/modelsim/cont.vht(72): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/joben/personal_dev/disd/2021-1/codigo/cont-especial-param/simulation/modelsim/cont.vht(81): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/joben/personal_dev/disd/2021-1/codigo/cont-especial-param/simulation/modelsim/cont.vht(83): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 16:46:16 on May 17,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 6
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs="+acc"  cont_vhd_tst
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs=""+acc"" cont_vhd_tst 
+# Start time: 16:46:16 on May 17,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.cont_vhd_tst(cont_arch)
+# Loading ieee.numeric_std(body)
+# Loading work.cont(ejemplo)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 150 ns
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /cont_vhd_tst/i1
+# End time: 16:47:16 on May 17,2021, Elapsed time: 0:01:00
+# Errors: 0, Warnings: 1

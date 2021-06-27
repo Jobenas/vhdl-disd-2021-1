@@ -1,0 +1,13 @@
+
+State Machine - |vending|estado_pte
+Name estado_pte.cuarentaycinco estado_pte.cuarenta estado_pte.treintaycinco estado_pte.treinta estado_pte.veinticinco estado_pte.veinte estado_pte.quince estado_pte.diez estado_pte.cinco estado_pte.cero 
+estado_pte.cero 0 0 0 0 0 0 0 0 0 0 
+estado_pte.cinco 0 0 0 0 0 0 0 0 1 1 
+estado_pte.diez 0 0 0 0 0 0 0 1 0 1 
+estado_pte.quince 0 0 0 0 0 0 1 0 0 1 
+estado_pte.veinte 0 0 0 0 0 1 0 0 0 1 
+estado_pte.veinticinco 0 0 0 0 1 0 0 0 0 1 
+estado_pte.treinta 0 0 0 1 0 0 0 0 0 1 
+estado_pte.treintaycinco 0 0 1 0 0 0 0 0 0 1 
+estado_pte.cuarenta 0 1 0 0 0 0 0 0 0 1 
+estado_pte.cuarentaycinco 1 0 0 0 0 0 0 0 0 1 

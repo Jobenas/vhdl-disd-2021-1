@@ -1,0 +1,69 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "salida",
+					"strict" : false
+				},
+				{
+					"name" : "comp_out",
+					"strict" : false
+				},
+				{
+					"name" : "dato[0]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "rst_reg",
+					"strict" : false
+				},
+				{
+					"name" : "en",
+					"strict" : false
+				},
+				{
+					"name" : "dato[6]",
+					"strict" : false
+				},
+				{
+					"name" : "cont_en",
+					"strict" : false
+				},
+				{
+					"name" : "rst_cont",
+					"strict" : false
+				},
+				{
+					"name" : "dato[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dato[7]",
+					"strict" : false
+				},
+				{
+					"name" : "dato[3]",
+					"strict" : false
+				},
+				{
+					"name" : "dato[4]",
+					"strict" : false
+				},
+				{
+					"name" : "dato[5]",
+					"strict" : false
+				},
+				{
+					"name" : "dato[2]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

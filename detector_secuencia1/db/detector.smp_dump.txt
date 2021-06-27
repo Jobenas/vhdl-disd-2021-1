@@ -1,0 +1,7 @@
+
+State Machine - |detector|estado_pte
+Name estado_pte.s3 estado_pte.s2 estado_pte.s1 estado_pte.s0 
+estado_pte.s0 0 0 0 0 
+estado_pte.s1 0 0 1 1 
+estado_pte.s2 0 1 0 1 
+estado_pte.s3 1 0 0 1 

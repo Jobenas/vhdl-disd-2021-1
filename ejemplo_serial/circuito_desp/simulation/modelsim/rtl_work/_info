@@ -1,0 +1,212 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/joben/personal_dev/disd/2021-1/codigo/ejemplo_serial/circuito_desp/simulation/modelsim
+Edesp
+Z1 w1623098074
+Z2 DPx4 work 10 desp_comps 0 22 X4MAMlUn7]b@:`:<I?WTL1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8C:/Users/joben/personal_dev/disd/2021-1/codigo/ejemplo_serial/circuito_desp/desp.vhd
+Z6 FC:/Users/joben/personal_dev/disd/2021-1/codigo/ejemplo_serial/circuito_desp/desp.vhd
+l0
+L6
+V0CI>;:a6FoH]mkDZL<?k22
+!s100 [:_BbUadQGMh_ne6QG?A`2
+Z7 OV;C;10.4b;61
+31
+Z8 !s110 1623098666
+!i10b 1
+Z9 !s108 1623098665.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/joben/personal_dev/disd/2021-1/codigo/ejemplo_serial/circuito_desp/desp.vhd|
+Z11 !s107 C:/Users/joben/personal_dev/disd/2021-1/codigo/ejemplo_serial/circuito_desp/desp.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1
+Aejemplo
+R2
+R3
+R4
+DEx4 work 4 desp 0 22 0CI>;:a6FoH]mkDZL<?k22
+l20
+L14
+V^nMNHn8b19JNh`;ST`4EN0
+!s100 bHF6YMX5P[9j@JMfD7^zJ1
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Pdesp_comps
+R3
+R4
+w1623097777
+R0
+8C:/Users/joben/personal_dev/disd/2021-1/codigo/ejemplo_serial/circuito_desp/desp_comps.vhd
+FC:/Users/joben/personal_dev/disd/2021-1/codigo/ejemplo_serial/circuito_desp/desp_comps.vhd
+l0
+L4
+VX4MAMlUn7]b@:`:<I?WTL1
+!s100 D^ijCQ_HhXSkjbWFIRP:K1
+R7
+31
+Z14 !s110 1623098665
+!i10b 1
+R9
+!s90 -reportprogress|300|-93|-work|work|C:/Users/joben/personal_dev/disd/2021-1/codigo/ejemplo_serial/circuito_desp/desp_comps.vhd|
+!s107 C:/Users/joben/personal_dev/disd/2021-1/codigo/ejemplo_serial/circuito_desp/desp_comps.vhd|
+!i113 1
+R12
+R13
+Edesp_vhd_tst
+Z15 w1623098571
+R3
+R4
+R0
+Z16 8C:/Users/joben/personal_dev/disd/2021-1/codigo/ejemplo_serial/circuito_desp/simulation/modelsim/desp.vht
+Z17 FC:/Users/joben/personal_dev/disd/2021-1/codigo/ejemplo_serial/circuito_desp/simulation/modelsim/desp.vht
+l0
+L31
+Vi;gdbKDA@1ST7_NJ>nc<l0
+!s100 E<Kf_J0g?M^4z=7a8?NA10
+R7
+31
+R8
+!i10b 1
+Z18 !s108 1623098666.000000
+Z19 !s90 -reportprogress|300|-93|-work|work|C:/Users/joben/personal_dev/disd/2021-1/codigo/ejemplo_serial/circuito_desp/simulation/modelsim/desp.vht|
+Z20 !s107 C:/Users/joben/personal_dev/disd/2021-1/codigo/ejemplo_serial/circuito_desp/simulation/modelsim/desp.vht|
+!i113 1
+R12
+R13
+Adesp_arch
+R3
+R4
+DEx4 work 12 desp_vhd_tst 0 22 i;gdbKDA@1ST7_NJ>nc<l0
+l56
+L33
+VeOU2S<KJJ7cTW;kmNzTLD0
+!s100 ;h>ZKP3QOM8@cMI>2>Lj01
+R7
+31
+R8
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R12
+R13
+Efa
+Z21 w1618865972
+R3
+R4
+R0
+Z22 8C:/Users/joben/personal_dev/disd/2021-1/codigo/fan_for_gen/fa.vhd
+Z23 FC:/Users/joben/personal_dev/disd/2021-1/codigo/fan_for_gen/fa.vhd
+l0
+L4
+VVVTOi6@0Bh_FICEc8AjQZ0
+!s100 0S4bF[b35e@nb8NniN[c=0
+R7
+31
+R14
+!i10b 1
+R9
+Z24 !s90 -reportprogress|300|-93|-work|work|C:/Users/joben/personal_dev/disd/2021-1/codigo/fan_for_gen/fa.vhd|
+Z25 !s107 C:/Users/joben/personal_dev/disd/2021-1/codigo/fan_for_gen/fa.vhd|
+!i113 1
+R12
+R13
+Aconc
+R3
+R4
+DEx4 work 2 fa 0 22 VVTOi6@0Bh_FICEc8AjQZ0
+l14
+L11
+V5RQ=Z_^J4GlC;<fD:j7G73
+!s100 8O[bH==SK:LjgiiRbOaaa1
+R7
+31
+R14
+!i10b 1
+R9
+R24
+R25
+!i113 1
+R12
+R13
+Efan
+Z26 w1620073159
+Z27 DPx4 work 9 fan_comps 0 22 MAL?;0C1=9c@kVFEziC;E3
+R3
+R4
+R0
+Z28 8C:/Users/joben/personal_dev/disd/2021-1/codigo/fan_for_gen/fan.vhd
+Z29 FC:/Users/joben/personal_dev/disd/2021-1/codigo/fan_for_gen/fan.vhd
+l0
+L6
+Vd1mGfWHMY^^SY:J12[i=23
+!s100 nFEBkJEHbRRcDCA0B[`S40
+R7
+31
+R14
+!i10b 1
+R9
+Z30 !s90 -reportprogress|300|-93|-work|work|C:/Users/joben/personal_dev/disd/2021-1/codigo/fan_for_gen/fan.vhd|
+Z31 !s107 C:/Users/joben/personal_dev/disd/2021-1/codigo/fan_for_gen/fan.vhd|
+!i113 1
+R12
+R13
+Aparam
+R27
+R3
+R4
+DEx4 work 3 fan 0 22 d1mGfWHMY^^SY:J12[i=23
+l20
+L18
+V1>jnbFVjzOhLXWkc];W[m2
+!s100 70YMPkc8^;H_z=CQ5oZ1W2
+R7
+31
+R14
+!i10b 1
+R9
+R30
+R31
+!i113 1
+R12
+R13
+Pfan_comps
+R3
+R4
+w1620070405
+R0
+8C:/Users/joben/personal_dev/disd/2021-1/codigo/fan_for_gen/fan_comps.vhd
+FC:/Users/joben/personal_dev/disd/2021-1/codigo/fan_for_gen/fan_comps.vhd
+l0
+L4
+VMAL?;0C1=9c@kVFEziC;E3
+!s100 a]jPS4Hz3<R]OSe]cJB``1
+R7
+31
+R14
+!i10b 1
+R9
+!s90 -reportprogress|300|-93|-work|work|C:/Users/joben/personal_dev/disd/2021-1/codigo/fan_for_gen/fan_comps.vhd|
+!s107 C:/Users/joben/personal_dev/disd/2021-1/codigo/fan_for_gen/fan_comps.vhd|
+!i113 1
+R12
+R13

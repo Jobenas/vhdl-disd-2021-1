@@ -1,0 +1,88 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/joben/personal_dev/disd/2021-1/codigo/detector_secuencia1/simulation/modelsim
+Edetector
+Z1 w1622493230
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8C:/Users/joben/personal_dev/disd/2021-1/codigo/detector_secuencia1/detector.vhd
+Z5 FC:/Users/joben/personal_dev/disd/2021-1/codigo/detector_secuencia1/detector.vhd
+l0
+L4
+Vm66HX^AIQXd1:_?j7`nbF0
+!s100 Rh7XCYIM@neo5eki5TMRS0
+Z6 OV;C;10.4b;61
+31
+Z7 !s110 1622493634
+!i10b 1
+Z8 !s108 1622493634.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/joben/personal_dev/disd/2021-1/codigo/detector_secuencia1/detector.vhd|
+Z10 !s107 C:/Users/joben/personal_dev/disd/2021-1/codigo/detector_secuencia1/detector.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1
+Afsm
+R2
+R3
+DEx4 work 8 detector 0 22 m66HX^AIQXd1:_?j7`nbF0
+l16
+L11
+V`UD]z2P_9i6]U@I>=_VZa1
+!s100 WYH<N5e;3U:mU9oGW81_Q2
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Edetector_vhd_tst
+Z13 w1622493554
+R2
+R3
+R0
+Z14 8C:/Users/joben/personal_dev/disd/2021-1/codigo/detector_secuencia1/simulation/modelsim/detector.vht
+Z15 FC:/Users/joben/personal_dev/disd/2021-1/codigo/detector_secuencia1/simulation/modelsim/detector.vht
+l0
+L31
+VfkkDiD<SZ:CJ4n28ZdElh1
+!s100 PVJf>>K2UB=h7@jJAE4lN2
+R6
+31
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-93|-work|work|C:/Users/joben/personal_dev/disd/2021-1/codigo/detector_secuencia1/simulation/modelsim/detector.vht|
+Z17 !s107 C:/Users/joben/personal_dev/disd/2021-1/codigo/detector_secuencia1/simulation/modelsim/detector.vht|
+!i113 1
+R11
+R12
+Adetector_arch
+R2
+R3
+DEx4 work 16 detector_vhd_tst 0 22 fkkDiD<SZ:CJ4n28ZdElh1
+l48
+L33
+V]F[h4NHYoam77?_QacHU]3
+!s100 Tn8@5BMUQ@J^i75AI61Ll1
+R6
+31
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12

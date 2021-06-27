@@ -65,3 +65,5 @@ run
 # 
 # ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
 #    Time: 0 ps  Iteration: 0  Instance: /div_freq_vhd_tst/i1
+# End time: 16:46:00 on May 17,2021, Elapsed time: 0:57:46
+# Errors: 0, Warnings: 2

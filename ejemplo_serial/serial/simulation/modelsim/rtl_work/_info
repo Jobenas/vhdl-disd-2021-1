@@ -1,0 +1,313 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/joben/personal_dev/disd/2021-1/codigo/ejemplo_serial/serial/simulation/modelsim
+Edesp
+Z1 w1623098074
+Z2 DPx4 work 10 desp_comps 0 22 X4MAMlUn7]b@:`:<I?WTL1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8C:/Users/joben/personal_dev/disd/2021-1/codigo/ejemplo_serial/serial/desp.vhd
+Z6 FC:/Users/joben/personal_dev/disd/2021-1/codigo/ejemplo_serial/serial/desp.vhd
+l0
+L6
+V0CI>;:a6FoH]mkDZL<?k22
+!s100 [:_BbUadQGMh_ne6QG?A`2
+Z7 OV;C;10.4b;61
+31
+Z8 !s110 1623101634
+!i10b 1
+Z9 !s108 1623101634.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/joben/personal_dev/disd/2021-1/codigo/ejemplo_serial/serial/desp.vhd|
+Z11 !s107 C:/Users/joben/personal_dev/disd/2021-1/codigo/ejemplo_serial/serial/desp.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1
+Aejemplo
+R2
+R3
+R4
+DEx4 work 4 desp 0 22 0CI>;:a6FoH]mkDZL<?k22
+l20
+L14
+V^nMNHn8b19JNh`;ST`4EN0
+!s100 bHF6YMX5P[9j@JMfD7^zJ1
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Pdesp_comps
+R3
+R4
+w1623097777
+R0
+8C:/Users/joben/personal_dev/disd/2021-1/codigo/ejemplo_serial/serial/desp_comps.vhd
+FC:/Users/joben/personal_dev/disd/2021-1/codigo/ejemplo_serial/serial/desp_comps.vhd
+l0
+L4
+VX4MAMlUn7]b@:`:<I?WTL1
+!s100 D^ijCQ_HhXSkjbWFIRP:K1
+R7
+31
+R8
+!i10b 1
+R9
+!s90 -reportprogress|300|-93|-work|work|C:/Users/joben/personal_dev/disd/2021-1/codigo/ejemplo_serial/serial/desp_comps.vhd|
+!s107 C:/Users/joben/personal_dev/disd/2021-1/codigo/ejemplo_serial/serial/desp_comps.vhd|
+!i113 1
+R12
+R13
+Edesp_control
+Z14 w1623099864
+R3
+R4
+R0
+Z15 8C:/Users/joben/personal_dev/disd/2021-1/codigo/ejemplo_serial/serial/desp_control.vhd
+Z16 FC:/Users/joben/personal_dev/disd/2021-1/codigo/ejemplo_serial/serial/desp_control.vhd
+l0
+L4
+V_G9bgTOF0=;GmjQ_A@9LP0
+!s100 ZZ_fZ9k5zf0Tn43kA1VMj3
+R7
+31
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/Users/joben/personal_dev/disd/2021-1/codigo/ejemplo_serial/serial/desp_control.vhd|
+Z18 !s107 C:/Users/joben/personal_dev/disd/2021-1/codigo/ejemplo_serial/serial/desp_control.vhd|
+!i113 1
+R12
+R13
+Afsm
+R3
+R4
+DEx4 work 12 desp_control 0 22 _G9bgTOF0=;GmjQ_A@9LP0
+l16
+L11
+Vzjg]SdVIFXP=g;b758dAD3
+!s100 0V]Lo?WP9CCzP]o;5YAnm0
+R7
+31
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13
+Efa
+Z19 w1618865972
+R3
+R4
+R0
+Z20 8C:/Users/joben/personal_dev/disd/2021-1/codigo/ejemplo_serial/serial/fa.vhd
+Z21 FC:/Users/joben/personal_dev/disd/2021-1/codigo/ejemplo_serial/serial/fa.vhd
+l0
+L4
+VVVTOi6@0Bh_FICEc8AjQZ0
+!s100 0S4bF[b35e@nb8NniN[c=0
+R7
+31
+R8
+!i10b 1
+R9
+Z22 !s90 -reportprogress|300|-93|-work|work|C:/Users/joben/personal_dev/disd/2021-1/codigo/ejemplo_serial/serial/fa.vhd|
+Z23 !s107 C:/Users/joben/personal_dev/disd/2021-1/codigo/ejemplo_serial/serial/fa.vhd|
+!i113 1
+R12
+R13
+Aconc
+R3
+R4
+DEx4 work 2 fa 0 22 VVTOi6@0Bh_FICEc8AjQZ0
+l14
+L11
+V5RQ=Z_^J4GlC;<fD:j7G73
+!s100 8O[bH==SK:LjgiiRbOaaa1
+R7
+31
+R8
+!i10b 1
+R9
+R22
+R23
+!i113 1
+R12
+R13
+Efan
+Z24 w1620073159
+Z25 DPx4 work 9 fan_comps 0 22 MAL?;0C1=9c@kVFEziC;E3
+R3
+R4
+R0
+Z26 8C:/Users/joben/personal_dev/disd/2021-1/codigo/ejemplo_serial/serial/fan.vhd
+Z27 FC:/Users/joben/personal_dev/disd/2021-1/codigo/ejemplo_serial/serial/fan.vhd
+l0
+L6
+Vd1mGfWHMY^^SY:J12[i=23
+!s100 nFEBkJEHbRRcDCA0B[`S40
+R7
+31
+R8
+!i10b 1
+R9
+Z28 !s90 -reportprogress|300|-93|-work|work|C:/Users/joben/personal_dev/disd/2021-1/codigo/ejemplo_serial/serial/fan.vhd|
+Z29 !s107 C:/Users/joben/personal_dev/disd/2021-1/codigo/ejemplo_serial/serial/fan.vhd|
+!i113 1
+R12
+R13
+Aparam
+R25
+R3
+R4
+DEx4 work 3 fan 0 22 d1mGfWHMY^^SY:J12[i=23
+l20
+L18
+V1>jnbFVjzOhLXWkc];W[m2
+!s100 70YMPkc8^;H_z=CQ5oZ1W2
+R7
+31
+R8
+!i10b 1
+R9
+R28
+R29
+!i113 1
+R12
+R13
+Pfan_comps
+R3
+R4
+w1620070405
+R0
+8C:/Users/joben/personal_dev/disd/2021-1/codigo/ejemplo_serial/serial/fan_comps.vhd
+FC:/Users/joben/personal_dev/disd/2021-1/codigo/ejemplo_serial/serial/fan_comps.vhd
+l0
+L4
+VMAL?;0C1=9c@kVFEziC;E3
+!s100 a]jPS4Hz3<R]OSe]cJB``1
+R7
+31
+R8
+!i10b 1
+R9
+!s90 -reportprogress|300|-93|-work|work|C:/Users/joben/personal_dev/disd/2021-1/codigo/ejemplo_serial/serial/fan_comps.vhd|
+!s107 C:/Users/joben/personal_dev/disd/2021-1/codigo/ejemplo_serial/serial/fan_comps.vhd|
+!i113 1
+R12
+R13
+Eserial
+Z30 w1623100809
+Z31 DPx4 work 12 serial_comps 0 22 V[]FlETAze<M92F8fC7_U3
+R3
+R4
+R0
+Z32 8C:/Users/joben/personal_dev/disd/2021-1/codigo/ejemplo_serial/serial/serial.vhd
+Z33 FC:/Users/joben/personal_dev/disd/2021-1/codigo/ejemplo_serial/serial/serial.vhd
+l0
+L6
+VooD5VgI@?B=Cj634<nhc82
+!s100 ?dQH_PiF3jTCK@E>>We0l0
+R7
+31
+R8
+!i10b 1
+R9
+Z34 !s90 -reportprogress|300|-93|-work|work|C:/Users/joben/personal_dev/disd/2021-1/codigo/ejemplo_serial/serial/serial.vhd|
+Z35 !s107 C:/Users/joben/personal_dev/disd/2021-1/codigo/ejemplo_serial/serial/serial.vhd|
+!i113 1
+R12
+R13
+Ajerarquico
+R31
+R3
+R4
+DEx4 work 6 serial 0 22 ooD5VgI@?B=Cj634<nhc82
+l18
+L14
+V6_b7XnU]jM5za]oUFonod1
+!s100 aGd?a98?G308NRh?BE_TB1
+R7
+31
+R8
+!i10b 1
+R9
+R34
+R35
+!i113 1
+R12
+R13
+Pserial_comps
+R3
+R4
+w1623100469
+R0
+8C:/Users/joben/personal_dev/disd/2021-1/codigo/ejemplo_serial/serial/serial_comps.vhd
+FC:/Users/joben/personal_dev/disd/2021-1/codigo/ejemplo_serial/serial/serial_comps.vhd
+l0
+L4
+VV[]FlETAze<M92F8fC7_U3
+!s100 =BIHgXX?OB>W`jQ<7?0MS1
+R7
+31
+R8
+!i10b 1
+R9
+!s90 -reportprogress|300|-93|-work|work|C:/Users/joben/personal_dev/disd/2021-1/codigo/ejemplo_serial/serial/serial_comps.vhd|
+!s107 C:/Users/joben/personal_dev/disd/2021-1/codigo/ejemplo_serial/serial/serial_comps.vhd|
+!i113 1
+R12
+R13
+Eserial_vhd_tst
+Z36 w1623101452
+R3
+R4
+R0
+Z37 8C:/Users/joben/personal_dev/disd/2021-1/codigo/ejemplo_serial/serial/simulation/modelsim/serial.vht
+Z38 FC:/Users/joben/personal_dev/disd/2021-1/codigo/ejemplo_serial/serial/simulation/modelsim/serial.vht
+l0
+L31
+Vn>c`NJeb`zOzXzE4>QAFM1
+!s100 l4k_B=cU;R5G_[I[[m@U03
+R7
+31
+R8
+!i10b 1
+R9
+Z39 !s90 -reportprogress|300|-93|-work|work|C:/Users/joben/personal_dev/disd/2021-1/codigo/ejemplo_serial/serial/simulation/modelsim/serial.vht|
+Z40 !s107 C:/Users/joben/personal_dev/disd/2021-1/codigo/ejemplo_serial/serial/simulation/modelsim/serial.vht|
+!i113 1
+R12
+R13
+Aserial_arch
+R3
+R4
+DEx4 work 14 serial_vhd_tst 0 22 n>c`NJeb`zOzXzE4>QAFM1
+l54
+L33
+VCYc2C4?Wc8@EO1cDihTEk0
+!s100 h]GGLC^1o<6?EWF`QWB011
+R7
+31
+R8
+!i10b 1
+R9
+R39
+R40
+!i113 1
+R12
+R13

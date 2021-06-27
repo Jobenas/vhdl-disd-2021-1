@@ -1,0 +1,12 @@
+|desp_control
+clk => estado_pte~1.DATAIN
+rst => estado_pte~3.DATAIN
+req => Selector1.IN3
+req => Selector0.IN2
+comp_out => estado_sgte.envia_ack.DATAB
+comp_out => Selector1.IN1
+cont_en <= cont_en.DB_MAX_OUTPUT_PORT_TYPE
+rst_cont <= rst_cont.DB_MAX_OUTPUT_PORT_TYPE
+ack <= ack.DB_MAX_OUTPUT_PORT_TYPE
+
+

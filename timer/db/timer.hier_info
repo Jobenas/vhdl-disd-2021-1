@@ -1,0 +1,79 @@
+|timer
+clk => div_freq:div1.clk
+clk => cont:cont_dec.clk
+clk => cont:cont_seg.clk
+rst => div_freq:div1.rst
+rst => cont:cont_dec.rst
+rst => cont:cont_seg.rst
+dec[0] <= cont:cont_dec.cuenta[0]
+dec[1] <= cont:cont_dec.cuenta[1]
+dec[2] <= cont:cont_dec.cuenta[2]
+dec[3] <= cont:cont_dec.cuenta[3]
+segs[0] <= cont:cont_seg.cuenta[0]
+segs[1] <= cont:cont_seg.cuenta[1]
+segs[2] <= cont:cont_seg.cuenta[2]
+segs[3] <= cont:cont_seg.cuenta[3]
+segs[4] <= cont:cont_seg.cuenta[4]
+segs[5] <= cont:cont_seg.cuenta[5]
+
+
+|timer|div_freq:div1
+clk => cuenta_actual[0].CLK
+clk => cuenta_actual[1].CLK
+clk => cuenta_actual[2].CLK
+clk => cuenta_actual[3].CLK
+rst => cuenta_actual[0].ACLR
+rst => cuenta_actual[1].ACLR
+rst => cuenta_actual[2].ACLR
+rst => cuenta_actual[3].ACLR
+div_out <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|timer|cont:cont_dec
+clk => cuenta_actual[0].CLK
+clk => cuenta_actual[1].CLK
+clk => cuenta_actual[2].CLK
+clk => cuenta_actual[3].CLK
+rst => cuenta_actual[0].ACLR
+rst => cuenta_actual[1].ACLR
+rst => cuenta_actual[2].ACLR
+rst => cuenta_actual[3].ACLR
+en => sum_out[3].OUTPUTSELECT
+en => sum_out[2].OUTPUTSELECT
+en => sum_out[1].OUTPUTSELECT
+en => sum_out[0].OUTPUTSELECT
+cuenta[0] <= cuenta_actual[0].DB_MAX_OUTPUT_PORT_TYPE
+cuenta[1] <= cuenta_actual[1].DB_MAX_OUTPUT_PORT_TYPE
+cuenta[2] <= cuenta_actual[2].DB_MAX_OUTPUT_PORT_TYPE
+cuenta[3] <= cuenta_actual[3].DB_MAX_OUTPUT_PORT_TYPE
+div <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|timer|cont:cont_seg
+clk => cuenta_actual[0].CLK
+clk => cuenta_actual[1].CLK
+clk => cuenta_actual[2].CLK
+clk => cuenta_actual[3].CLK
+clk => cuenta_actual[4].CLK
+clk => cuenta_actual[5].CLK
+rst => cuenta_actual[0].ACLR
+rst => cuenta_actual[1].ACLR
+rst => cuenta_actual[2].ACLR
+rst => cuenta_actual[3].ACLR
+rst => cuenta_actual[4].ACLR
+rst => cuenta_actual[5].ACLR
+en => sum_out[5].OUTPUTSELECT
+en => sum_out[4].OUTPUTSELECT
+en => sum_out[3].OUTPUTSELECT
+en => sum_out[2].OUTPUTSELECT
+en => sum_out[1].OUTPUTSELECT
+en => sum_out[0].OUTPUTSELECT
+cuenta[0] <= cuenta_actual[0].DB_MAX_OUTPUT_PORT_TYPE
+cuenta[1] <= cuenta_actual[1].DB_MAX_OUTPUT_PORT_TYPE
+cuenta[2] <= cuenta_actual[2].DB_MAX_OUTPUT_PORT_TYPE
+cuenta[3] <= cuenta_actual[3].DB_MAX_OUTPUT_PORT_TYPE
+cuenta[4] <= cuenta_actual[4].DB_MAX_OUTPUT_PORT_TYPE
+cuenta[5] <= cuenta_actual[5].DB_MAX_OUTPUT_PORT_TYPE
+div <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+

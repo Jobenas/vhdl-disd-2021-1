@@ -1,0 +1,21 @@
+|vending
+clk => estado_pte~1.DATAIN
+rst => estado_pte~3.DATAIN
+n => estado_sgte.OUTPUTSELECT
+n => estado_sgte.OUTPUTSELECT
+n => estado_sgte.OUTPUTSELECT
+n => Selector1.IN3
+n => Selector2.IN4
+n => Selector3.IN4
+n => Selector4.IN4
+n => Selector5.IN4
+d => estado_sgte.OUTPUTSELECT
+d => estado_sgte.OUTPUTSELECT
+d => estado_sgte.DATAA
+q => estado_sgte.DATAA
+q => estado_sgte.DATAA
+c <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+n_o <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+d_o <= d_o.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,10 @@
+|detector
+clk => estado_pte~1.DATAIN
+rst => estado_pte~3.DATAIN
+x => estado_sgte.s1.DATAB
+x => estado_sgte.s2.DATAB
+x => estado_sgte.s3.DATAA
+x => estado_pte.s0.DATAIN
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+
+
